@@ -5,20 +5,20 @@ import ops
 def menu():
     print("""
 ===== Equipment Checkout (SQLite) =====
-1) Initialize DB (create tables)
+1) Initialize DB
 2) Seed sample data
 3) List items
 4) List available items
 5) Search items
-6) List active loans (JOIN query)
-7) Add user (INSERT)
-8) Add item (INSERT)
-9) Checkout item (INSERT + UPDATE)
-10) Return loan (UPDATE)
-11) Update item name (UPDATE)
-12) Delete loan (DELETE)
-13) Delete item (DELETE)
-14) Delete user (DELETE)
+6) List active loans
+7) Add user
+8) Add item
+9) Checkout item
+10) Return loan
+11) Update item name
+12) Delete loan
+13) Delete item
+14) Delete user
 0) Exit
 """)
 
